@@ -10,6 +10,10 @@ import activate from 'app/modules/account/activate/activate.reducer';
 import password from 'app/modules/account/password/password.reducer';
 import settings from 'app/modules/account/settings/settings.reducer';
 import passwordReset from 'app/modules/account/password-reset/password-reset.reducer';
+// prettier-ignore
+import cd from 'app/entities/cd/cd.reducer';
+// prettier-ignore
+import dvd from 'app/entities/dvd/dvd.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 const rootReducer = {
@@ -22,6 +26,8 @@ const rootReducer = {
   passwordReset,
   password,
   settings,
+  cd,
+  dvd,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar,
 };

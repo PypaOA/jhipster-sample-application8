@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20220208153559",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "dvd",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "performer",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "releaseYear",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "discCount",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "format",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lang",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "state",
+      "fieldType": "State",
+      "fieldValues": "OK,AWAY,LOST,EXPECTED,UNDEFINED"
+    },
+    {
+      "fieldName": "added",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Dvd",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
